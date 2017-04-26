@@ -1,0 +1,481 @@
+body,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.header-top {
+	background: #002258;
+	height: 40px;
+}
+
+.header-top ul {
+	display: inline-block;
+}
+
+.header-top li {
+	display: inline-block;
+	position: relative;
+	margin: 7px 6px;
+	width: 23px;
+}
+
+.header-top li a:before {
+	position: absolute;
+	width: 24px;
+	height: 23px;
+	content: "";
+}
+
+.header-top li .icon1:before {
+	background: url(../img/FB.png);
+}
+
+.header-top li .icon2:before {
+	background: url(../img/twitter.png);
+}
+
+.header-top li .icon3:before {
+	background: url(../img/G+.png);
+}
+
+.header-top span {
+	display: inline-block;
+	position: relative;
+	color: #fff;
+	top: 10px;
+	left: 50px;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+}
+
+.logo {
+	display: inline-block;
+	background: url(../img/Logo.png) center no-repeat;
+	width: 285px;
+	height: 80px;
+	margin-top: 13px;
+	margin-bottom: 9px;
+	border: 1px solid #18234b;
+}
+
+.menu {
+	float: right;
+}
+
+.dropbtn {
+	background-color: #fff;
+	color: #002258;
+	padding: 16px;
+	font-size: 16px;
+	padding: 16px 40px;
+	margin-top: 30px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content {
+	border-top: #0070e9 solid 4px;
+}
+
+.arrow-up {
+	position: absolute;
+	left: 20px;
+	top: -9px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid #0070e9;
+}
+
+.dropdown-content a:hover {
+	color: #0070e9;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #fafafa;
+}
+
+.bl2 {
+	position: relative
+}
+
+.bl2 .text {
+	position: absolute;
+	background: rgba(0, 0, 0, .5);
+	color: #fff;
+	width: 100%;
+	top: 150px;
+	padding: 60px 0 18px 70px;
+	font-family: 'Lato', sans-serif;
+}
+
+.bl2 .title {
+	font-size: 48px;
+}
+
+.bl2 .small-text {
+	font-size: 13px;
+}
+
+.bl3,
+.bl4 {
+	text-align: center;
+}
+
+.bl3 .title {
+	color: #18234b;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-top: 40px;
+	margin-bottom: 13px;
+	font-family: 'Lato', sans-serif;
+}
+
+.bl3 .item {
+	display: inline-block;
+	margin-right: 8px;
+	overflow: hidden;
+}
+
+.bl3 .item:last-child {
+	margin-right: 0;
+}
+
+.bl3 .overlay,
+.bl4 .overlay {
+	background: rgba(0, 0, 0, .4);
+	height: 100%;
+	width: 100%;
+	-webkit-transition: all 1s ease-out 0.2s;
+	-moz-transition: all 1s ease-out 0.2s;
+	-o-transition: all 1s ease-out 0.2s;
+	transition: all 1s ease-out 0.2s;
+}
+
+.bl3 .img {
+	position: relative;
+	width: 194px;
+	height: 193px;
+	-webkit-transition: all 1s ease-out 0.2s;
+	-moz-transition: all 1s ease-out 0.2s;
+	-o-transition: all 1s ease-out 0.2s;
+	transition: all 1s ease-out 0.2s;
+}
+
+.bl3 .img1 {
+	background: url(../img/product1.png);
+}
+
+.bl3 .img2 {
+	background: url(../img/product2.png);
+}
+
+.bl3 .img3 {
+	background: url(../img/product3.png);
+}
+
+.bl3 .img4 {
+	background: url(../img/product4.png);
+}
+
+.bl3 .img5 {
+	background: url(../img/product5.png);
+}
+
+.bl3 .overlay:hover {
+	background: transparent!important;
+}
+
+.bl3 .img:hover {
+	-webkit-transform: scale(0.9);
+	-mos-transform: scale(0.9);
+	-o-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+.bl3 .text {
+	position: absolute;
+	background: rgba(0, 0, 0, .7);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 52px;
+	bottom: 0;
+	font-size: 12px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+}
+
+.line {
+	width: 600px;
+	height: 1px;
+	background: #bfbfbf;
+	margin: 17px auto;
+}
+
+.bl4 .item {
+	display: inline-block;
+	margin: 10px;
+	overflow: hidden;
+}
+
+.bl4 .img {
+	position: relative;
+	width: 498px;
+	height: 245px;
+	-webkit-transition: all 1s ease-out 0.2s;
+	-moz-transition: all 1s ease-out 0.2s;
+	-o-transition: all 1s ease-out 0.2s;
+	transition: all 1s ease-out 0.2s;
+}
+
+.bl4 .img1 {
+	background: url(../img/about1.png);
+}
+
+.bl4 .img2 {
+	background: url(../img/about2.png);
+}
+
+.bl4 .img:hover {
+	-webkit-transform: scale(1.1);
+	-mos-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.bl4 .text {
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	font-size: 48px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	-webkit-transition: all 1s ease-out 0.2s;
+	-moz-transition: all 1s ease-out 0.2s;
+	-o-transition: all 1s ease-out 0.2s;
+	transition: all 1s ease-out 0.2s;
+}
+
+.bl4 .item:hover .text {
+	color: transparent
+}
+
+.bl5 {
+	background: #002258;
+	height: 55px;
+	margin-top: 30px;
+}
+
+.bl5 .text {
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	line-height: 55px;
+	font-family: 'Lato', sans-serif;
+}
+
+.bl5 ul {
+	display: inline-block;
+	float: right;
+	line-height: 55px;
+}
+
+.bl5 ul li {
+	display: inline-block;
+	list-style-type: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+}
+
+.bl5 li a {
+	padding: 0 12px;
+	color: #fff!important;
+}
+
+.bl5 li .bord {
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+.cmn-toggle-switch__htx {
+	background-color: transparent;
+}
+
+.cmn-toggle-switch {
+	display: none;
+	float: right;
+	position: relative;
+	overflow: hidden;
+	margin: 35px;
+	padding: 0;
+	width: 34px;
+	height: 29px;
+	font-size: 0;
+	text-indent: -9999px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	box-shadow: none;
+	border-radius: none;
+	border: none;
+	cursor: pointer;
+	-webkit-transition: background 0.3s;
+	transition: background 0.3s;
+}
+
+.cmn-toggle-switch:focus {
+	outline: none;
+}
+
+.cmn-toggle-switch span {
+	display: block;
+	position: absolute;
+	top: 12px;
+	left: 0px;
+	right: 0px;
+	height: 3px;
+	background: #000
+}
+
+.cmn-toggle-switch span::before,
+.cmn-toggle-switch span::after {
+	position: absolute;
+	display: block;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background-color: #000;
+	content: "";
+}
+
+.cmn-toggle-switch span::before {
+	top: 10px;
+}
+
+.cmn-toggle-switch span::after {
+	bottom: 11px;
+}
+
+.cmn-toggle-switch__htx span {
+	-webkit-transition: background 0 0.3s;
+	transition: background 0 0.3s;
+}
+
+.cmn-toggle-switch__htx span::before,
+.cmn-toggle-switch__htx span::after {
+	-webkit-transition-duration: 0.3s, 0.3s;
+	transition-duration: 0.3s, 0.3s;
+	-webkit-transition-delay: 0.3s, 0;
+	transition-delay: 0.3s, 0;
+}
+
+.cmn-toggle-switch__htx span::before {
+	-webkit-transition-property: top, -webkit-transform;
+	transition-property: top, transform;
+}
+
+.cmn-toggle-switch__htx span::after {
+	-webkit-transition-property: bottom, -webkit-transform;
+	transition-property: bottom, transform;
+}
+
+.cmn-toggle-switch__htx.active {
+	background-color: transparent;
+}
+
+.cmn-toggle-switch__htx.active span {
+	background: none;
+}
+
+.cmn-toggle-switch__htx.active span::before {
+	top: 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.cmn-toggle-switch__htx.active span::after {
+	bottom: 0;
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.cmn-toggle-switch__htx.active span::before,
+.cmn-toggle-switch__htx.active span::after {
+	-webkit-transition-delay: 0, 0.3s;
+	transition-delay: 0, 0.3s;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.dropbtn {
+		padding: 16px 26px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.dropbtn {
+		padding: 16px 9px;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 767px) {
+	.menu {
+		display: none;
+		position: absolute;
+		background: #fff;
+		width: 100%;
+		z-index: 2;
+	}
+	.cmn-toggle-switch {
+		display: block;
+	}
+	.dropdown {
+		display: block;
+	}
+	.dropbtn {
+		margin-top: 0;
+	}
+	.dropdown-content {
+		left: 103px;
+	}
+	.logo {
+		margin-left: 20px;
+	}
+	.bl4 .img {
+		width: 460px;
+	}
+}
